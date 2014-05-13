@@ -26,14 +26,14 @@ Application .net C# en ligne de commande qui permet d'automatiser le lancement d
 
 > `clear` : Efface la sortie console. `[-c, -clear]`
 
-
-**Exemples**
+## Exemples
+**Utilisation de la commande screens**
 
 ```
 > ChromeLauncher screens
 ```
 
-<pre>
+Résultat :<pre>
 ---- Screens informations ----
 
  Number screens detected = 2
