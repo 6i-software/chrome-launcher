@@ -82,12 +82,24 @@
     <None Include="batch\ChromeLauncher.bat">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Documentation\exemples\actions.bat" />
-    <None Include="Documentation\exemples\actions.json" />
-    <None Include="Documentation\exemples\json\actions.json" />
-    <None Include="Documentation\exemples\json\actions_with_all_options.json" />
-    <None Include="Documentation\exemples\json\actions_with_delay.json" />
-    <None Include="Documentation\exemples\json\actions_with_kill_chrome.json" />
+    <None Include="actions.bat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="actions.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="exemples\actions.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="exemples\actions_with_all_options.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="exemples\actions_with_delay.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="exemples\actions_with_kill_chrome.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Model\Old\OLDCopy of ChromeLauncher_Commands" />
     <None Include="Model\Old\OLDHelpGeneratorConsole80" />
     <None Include="Model\Old\OLDServices" />

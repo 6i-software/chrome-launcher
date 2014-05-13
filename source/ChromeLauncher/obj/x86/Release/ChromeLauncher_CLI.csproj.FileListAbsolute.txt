@@ -12,3 +12,9 @@ D:\DotNET\ChromeLauncher\source\ChromeLauncher\bin\Release\Newtonsoft.Json.xml
 D:\DotNET\ChromeLauncher\source\ChromeLauncher\obj\x86\Release\ChromeLauncher_CLI.csprojResolveAssemblyReference.cache
 D:\DotNET\ChromeLauncher\source\ChromeLauncher\bin\Release\ChromeLauncher.exe
 D:\DotNET\ChromeLauncher\source\ChromeLauncher\bin\Release\ChromeLauncher.pdb
+D:\DotNET\ChromeLauncher\source\ChromeLauncher\bin\Release\actions.bat
+D:\DotNET\ChromeLauncher\source\ChromeLauncher\bin\Release\actions.json
+D:\DotNET\ChromeLauncher\source\ChromeLauncher\bin\Release\exemples\actions.json
+D:\DotNET\ChromeLauncher\source\ChromeLauncher\bin\Release\exemples\actions_with_all_options.json
+D:\DotNET\ChromeLauncher\source\ChromeLauncher\bin\Release\exemples\actions_with_delay.json
+D:\DotNET\ChromeLauncher\source\ChromeLauncher\bin\Release\exemples\actions_with_kill_chrome.json
