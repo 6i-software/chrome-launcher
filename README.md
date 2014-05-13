@@ -1,65 +1,9 @@
-
 # ChromeLauncher
 Application .net C# en ligne de commande qui permet d'automatiser le lancement de l'application Chrome sur un ou plusieurs écrans, en pointant sur différentes pages web.
 
-## Commandes
-Liste toutes les commandes disponibles
-<pre>
-    load : Charge un fichier json d'actions à passer aux lanceurs de chrome, 
-           avec en option le chemin du fichier. [-l, -load [-f=, -filepath=]]
-   tests : Lance un nombre donné de chromes sur autant d'écran, avec en option 
-           le nombre d'instance. [-t, -tests [-n=, -nombre= (default=1, min=1,
-           max=5)]]
- screens : Donne des informations sur les ‚crans disponibles. [-s, -screens]
-    kill : Tue tous les processus chromes en cours d'‚xecution avant le 
-           lancement. [-kill, -kill-all-chromes]
-   delay : Ajoute un d‚lai d'attente, exprim‚ en milisecondes avant le
-           lancement. [-delay=2500]
-   debug : Active le debug lors de l'‚xecution. [-d, -debug]
-   clear : Efface la sortie console. [-c, -clear]
- version : Donne la version & copyright de l'application. [-v, -version]
-    help : Affiche cette aide. [-h, -? -help]
-</pre>
+## Usage
 
-#### Commande : "screens"
-
-<pre>ChromeLauncher screens</pre>
-
-Résultats : <pre>
----- Screens informations ----
-
- Number screens detected = 2
-
- > SCREEN 1
-   ---------------------------------------------------------
-   |    Device Name : \\.\DISPLAY1
-   |         Bounds : {X=0,Y=0,Width=1280,Height=1024}
-   |           Type : System.Windows.Forms.Screen
-   |   Working Area : {X=0,Y=0,Width=1280,Height=984}
-   | Primary Screen : True
-   ---------------------------------------------------------
-
- > SCREEN 2
-   ---------------------------------------------------------
-   |    Device Name : \\.\DISPLAY2
-   |         Bounds : {X=1280,Y=0,Width=1920,Height=1200}
-   |           Type : System.Windows.Forms.Screen
-   |   Working Area : {X=1280,Y=0,Width=1920,Height=1200}
-   | Primary Screen : False
-   ---------------------------------------------------------
-
----- END ----
-</pre>
-
-## Usages
-<pre>
-  ChromeLauncher screens
-  ChromeLauncher tests
-  ChromeLauncher tests -nombre=3 -debug -kill-all-chromes -delay=2500 -clear
-  ChromeLauncher t -n=3 -d -kill -delay=2500 -c
-  ChromeLauncher load -filepath=c:\foo\actions.json
-  ChromeLauncher -l -f=actions.json -d -c
-</pre>
+    ChromeLauncher [commandes] [--options]
 
 ## RoadMap
 **Version 0.0.1**
@@ -68,3 +12,8 @@ Résultats : <pre>
 * Lancement par lecture d'un fichier JSON;
 * Lancement directement à l'aide d'un script bat (qui ne fait que lire une partition décrite dans un fichier JSON).
 
+## Historique
+[Releases](https://github.com/AOT-PADI/ChromeLauncher/releases)
+
+## License
+[BSD License](https://github.com/AOT-PADI/ChromeLauncher/LICENSE.md)
