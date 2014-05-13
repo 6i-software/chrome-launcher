@@ -10,7 +10,7 @@ Application .net C# en ligne de commande qui permet d'automatiser le lancement d
 
 > `tests` : Lance un nombre donné de chromes sur autant d'écran. `[-t, -tests [-n=, -nombre= (default=1, min=1,max=5)]]`
 
-> `screens` : Donne des informations sur les ãrans disponibles. `[-s, -screens]`
+> `screens` : Donne des informations sur les écrans disponibles. `[-s, -screens]`
 
 > `version` : Donne la version & copyright de l'application. `[-v, -version]`
 
@@ -27,8 +27,17 @@ Application .net C# en ligne de commande qui permet d'automatiser le lancement d
 > `clear` : Efface la sortie console. `[-c, -clear]`
 
 ## Exemples
-**Utilisation de la commande screens**
 
+### Commande `load`
+Charge un fichier json d'actions à passer aux lanceurs de chrome, avec en option le chemin du fichier. `[-l, -load [-f=, -filepath=]]`
+```
+> ChromeLauncher load -filepath=c:\foo\actions.json -debug -kill-all-chromes -clear
+// ou de manière équivalente
+> ChromeLauncher -l -f=c:\foo\actions.json -d -kill -c
+```
+
+### Commande `screens`
+Donne des informations sur les écrans disponibles. `[-s, -screens]`
 ```
 > ChromeLauncher screens
 ```
