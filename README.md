@@ -4,7 +4,7 @@ Application .net C# en ligne de commande qui permet d'automatiser le lancement d
 
 ## Commandes
 <pre>
-    load : Charge un fichier json d'actions … passer aux lanceurs de chrome, 
+    **load** : Charge un fichier json d'actions … passer aux lanceurs de chrome, 
            avec en option le chemin du fichier. [-l, -load [-f=, -filepath=]]
    tests : Lance un nombre donn‚ de chromes sur autant d'‚cran, avec en option 
            le nombre d'instance. [-t, -tests [-n=, -nombre= (default=1, min=1,
