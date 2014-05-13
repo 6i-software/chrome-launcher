@@ -294,11 +294,10 @@ namespace ChromeLauncher.CommandLineApplication
             return 
             @"_______________________________________________________________________________" + Environment.NewLine +
             @"                                                                               " + Environment.NewLine +
-            @"      ___  _                            ___                                    " + Environment.NewLine +
-            @"     |  _>| |_  _ _  ___ ._ _ _  ___   / __> ___  _ _  ___  ___ ._ _  ___      " + Environment.NewLine +
-            @"     | <__| . || '_>/ . \| ' ' |/ ._>  \__ \/ | '| '_>/ ._>/ ._>| ' |<_-<      " + Environment.NewLine +
-            @"     `___/|_|_||_|  \___/|_|_|_|\___.  <___/\_|_.|_|  \___.\___.|_|_|/__/      " + Environment.NewLine +
-            @"                                                                               " + Environment.NewLine +
+            @"    ___  _                            _                        _               " + Environment.NewLine +
+            @"   |  _>| |_  _ _  ___ ._ _ _  ___   | |   ___  _ _ ._ _  ___ | |_  ___  _ _   " + Environment.NewLine +
+            @"   | <__| . || '_|/ . \| ' ' |/ ._>  | |_ <_> || | || ' |/ | '| . |/ ._>| '_|  " + Environment.NewLine +
+            @"   `___/|_|_||_|  \___/|_|_|_|\___.  |___|<___|`___||_|_|\_|_.|_|_|\___.|_|    " + Environment.NewLine +
             @"                                                                               " + Environment.NewLine +
             @"  Version : " + Program.Version + Environment.NewLine +
             @"  Contact : " + Program.Contact + Environment.NewLine +
