@@ -2,6 +2,13 @@
 # ChromeLauncher
 Application .net C# en ligne de commande qui permet d'automatiser le lancement de l'application Chrome sur un ou plusieurs écrans, en pointant sur différentes pages web.
 
+## RoadMap
+**Version 0.0.1**
+* Affiche les informations des écrans disponibles;
+* Lancement de chrome sur un ecran donnée, vers une url précise, avec des options en ligne de commande, avec un délai, et avec la possibilité de fermer au préalable toutes les instances de chromes;
+* Lancement par lecture d'un fichier JSON;
+* Lancement directement à l'aide d'un script bat (qui ne fait que lire une partition décrite dans un fichier JSON).
+
 ## Usages
 <pre>
   ChromeLauncher screens
@@ -13,10 +20,11 @@ Application .net C# en ligne de commande qui permet d'automatiser le lancement d
 </pre>
 
 ## Commandes
+Liste toutes les commandes disponibles
 <pre>
     load : Charge un fichier json d'actions à passer aux lanceurs de chrome, 
            avec en option le chemin du fichier. [-l, -load [-f=, -filepath=]]
-   tests : Lance un nombre donn‚ de chromes sur autant d'‚cran, avec en option 
+   tests : Lance un nombre donné de chromes sur autant d'écran, avec en option 
            le nombre d'instance. [-t, -tests [-n=, -nombre= (default=1, min=1,
            max=5)]]
  screens : Donne des informations sur les ‚crans disponibles. [-s, -screens]
