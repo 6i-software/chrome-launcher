@@ -11,7 +11,6 @@ Application .net C# en ligne de commande qui permet d'automatiser le lancement d
   ChromeLauncher load -filepath=c:\foo\actions.json
   ChromeLauncher -l -f=actions.json -d -c
 </pre>
----
 
 ## Commandes
 <pre>
@@ -30,4 +29,3 @@ Application .net C# en ligne de commande qui permet d'automatiser le lancement d
  version : Donne la version & copyright de l'application. [-v, -version]
     help : Affiche cette aide. [-h, -? -help]
 </pre>
----
