@@ -1,7 +1,7 @@
 # ChromeLauncher
 Application .net C# en ligne de commande qui permet d'automatiser le lancement de l'application Chrome sur un ou plusieurs écrans, en pointant sur différentes pages web.
 
-## Usage
+## Usages
 
     ChromeLauncher [commandes] [options]
 
@@ -26,6 +26,38 @@ Application .net C# en ligne de commande qui permet d'automatiser le lancement d
 
 > `clear` : Efface la sortie console. `[-c, -clear]`
 
+
+**Exemples**
+
+```
+> ChromeLauncher screens
+```
+
+<pre>
+---- Screens informations ----
+
+ Number screens detected = 2
+
+ > SCREEN 1
+   ---------------------------------------------------------
+   |    Device Name : \\.\DISPLAY1
+   |         Bounds : {X=0,Y=0,Width=1280,Height=1024}
+   |           Type : System.Windows.Forms.Screen
+   |   Working Area : {X=0,Y=0,Width=1280,Height=984}
+   | Primary Screen : True
+   ---------------------------------------------------------
+
+ > SCREEN 2
+   ---------------------------------------------------------
+   |    Device Name : \\.\DISPLAY2
+   |         Bounds : {X=1280,Y=0,Width=1920,Height=1200}
+   |           Type : System.Windows.Forms.Screen
+   |   Working Area : {X=1280,Y=0,Width=1920,Height=1200}
+   | Primary Screen : False
+   ---------------------------------------------------------
+
+---- END ----
+</pre>
 
 ## Historique
 [Releases](https://github.com/AOT-PADI/ChromeLauncher/releases)
