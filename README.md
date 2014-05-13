@@ -28,46 +28,14 @@ Application .net C# en ligne de commande qui permet d'automatiser le lancement d
 
 ## Exemples
 
-### Commande `load`
-Charge un fichier json d'actions à passer aux lanceurs de chrome, avec en option le chemin du fichier. `[-l, -load [-f=, -filepath=]]`
-```
-> ChromeLauncher load -filepath=c:\foo\actions.json -debug -kill-all-chromes -clear
-// ou de manière équivalente
-> ChromeLauncher -l -f=c:\foo\actions.json -d -kill -c
-```
-
-### Commande `screens`
-Donne des informations sur les écrans disponibles. `[-s, -screens]`
 ```
 > ChromeLauncher screens
+> ChromeLauncher tests
+> ChromeLauncher tests -nombre=3 -debug -kill-all-chromes -delay=2500 -clear
+> ChromeLauncher t -n=3 -d -kill -delay=2500 -c
+> ChromeLauncher load -filepath=c:\foo\actions.json
+> ChromeLauncher -l -f=actions.json -d -c
 ```
-
-Résultat :
-<pre>
----- Screens informations ----
-
- Number screens detected = 2
-
- > SCREEN 1
-   ---------------------------------------------------------
-   |    Device Name : \\.\DISPLAY1
-   |         Bounds : {X=0,Y=0,Width=1280,Height=1024}
-   |           Type : System.Windows.Forms.Screen
-   |   Working Area : {X=0,Y=0,Width=1280,Height=984}
-   | Primary Screen : True
-   ---------------------------------------------------------
-
- > SCREEN 2
-   ---------------------------------------------------------
-   |    Device Name : \\.\DISPLAY2
-   |         Bounds : {X=1280,Y=0,Width=1920,Height=1200}
-   |           Type : System.Windows.Forms.Screen
-   |   Working Area : {X=1280,Y=0,Width=1920,Height=1200}
-   | Primary Screen : False
-   ---------------------------------------------------------
-
----- END ----
-</pre>
 
 ## Historique
 [Releases](https://github.com/AOT-PADI/ChromeLauncher/releases)
