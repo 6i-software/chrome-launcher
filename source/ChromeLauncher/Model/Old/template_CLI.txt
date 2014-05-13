@@ -1,0 +1,48 @@
+
+Font text asciiART = Dr Pepper
+(http://patorjk.com/software/taag/#p=display&f=Dr%20Pepper&t=Merge%20Excel)
+
+------------
+| C# Style |
+------------
+
+	"_______________________________________________________________________________" + Environment.NewLine 
+	"                                                                               " + Environment.NewLine 
+	"      ___  _                            ___                                    " + Environment.NewLine 
+	"     |  _>| |_  _ _  ___ ._ _ _  ___   / __> ___  _ _  ___  ___ ._ _  ___      " + Environment.NewLine 
+	"     | <__| . || '_>/ . \| ' ' |/ ._>  \__ \/ | '| '_>/ ._>/ ._>| ' |<_-<      " + Environment.NewLine 
+	"     `___/|_|_||_|  \___/|_|_|_|\___.  <___/\_|_.|_|  \___.\___.|_|_|/__/      " + Environment.NewLine 
+	"                                                                               " + Environment.NewLine 
+	"                                                                               " + Environment.NewLine 
+	"  Version : " + Environment.NewLine 
+	"  Contact : " + Environment.NewLine 
+	"     Date : " + Environment.NewLine 
+	"                                                                               " + Environment.NewLine 
+	"  Copyright © 2014, Académie d'Orléans-Tours / Division de l'évaluation et de " + Environment.NewLine
+	"  la prospective / Pôle analyse et développement informatique. " + Environment.NewLine 
+	"_______________________________________________________________________________" + Environment.NewLine 
+
+
+	
+----------------
+| AutoIt Style |
+----------------	
+Func _version()
+   $credits = "_______________________________________________________________________________"&@CRLF& _
+              @CRLF& _                                                      
+			  "                __ __                       ___                _ "&@CRLF& _
+			  "               |  \  \ ___  _ _  ___  ___  | __>__   ___  ___ | |"&@CRLF& _
+			  "               |     |/ ._>| '_>/ . |/ ._> | _> \ \// | '/ ._>| |"&@CRLF& _
+			  "               |_|_|_|\___.|_|  \_. |\___. |___>/\_\\_|_.\___.|_|"&@CRLF& _
+			  "                                <___'                            "&@CRLF& _
+              @CRLF& _
+			  "  Version : " & $APPLICATION_VERSION&@CRLF& _
+			  "  Contact : " & $APPLICATION_CONTACT&@CRLF& _
+			  "     Date : " & $APPLICATION_DATE&@CRLF& _
+			  @CRLF& _
+			  "  Copyright © 2014, Académie d'Orléans-Tours / Division de l'évaluation et de"&@CRLF& _
+			  "  la prospective / Pôle analyse et développement informatique"&@CRLF& _
+			  "_______________________________________________________________________________"&@CRLF
+
+   Return $credits
+EndFunc

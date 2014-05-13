@@ -1,0 +1,18 @@
+﻿{
+  "kill_all_chromes": true,
+  "delay_before_launch":2500,
+  "actions": [
+    {
+      "url":"http://20100.lescigales.org/FF1/",
+      "arguments":"--new-window --incognito",
+      "fullscreen": true,
+      "indexscreen": 0
+    },
+    {
+      "url":"http://20100.lescigales.org/FF1/solution/intro.php",
+      "arguments":"--new-window --incognito",
+      "fullscreen": true,
+      "indexscreen": 1
+    }
+  ]
+}

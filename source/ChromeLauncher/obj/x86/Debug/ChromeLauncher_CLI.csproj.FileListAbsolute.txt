@@ -1,0 +1,14 @@
+D:\DotNET\ChromeLauncher\source\ChromeLauncher\bin\Debug\icon_app.ico
+D:\DotNET\ChromeLauncher\source\ChromeLauncher\bin\Debug\batch\ChromeLauncher.bat
+D:\DotNET\ChromeLauncher\source\ChromeLauncher\bin\Debug\CLAP.dll
+D:\DotNET\ChromeLauncher\source\ChromeLauncher\bin\Debug\Newtonsoft.Json.dll
+D:\DotNET\ChromeLauncher\source\ChromeLauncher\bin\Debug\CLAP.pdb
+D:\DotNET\ChromeLauncher\source\ChromeLauncher\bin\Debug\CLAP.xml
+D:\DotNET\ChromeLauncher\source\ChromeLauncher\bin\Debug\Newtonsoft.Json.pdb
+D:\DotNET\ChromeLauncher\source\ChromeLauncher\bin\Debug\Newtonsoft.Json.xml
+D:\DotNET\ChromeLauncher\source\ChromeLauncher\obj\x86\Debug\ChromeLauncher_CLI.csprojResolveAssemblyReference.cache
+D:\DotNET\ChromeLauncher\source\ChromeLauncher\obj\x86\Debug\ChromeLauncher.exe
+D:\DotNET\ChromeLauncher\source\ChromeLauncher\obj\x86\Debug\ChromeLauncher.pdb
+D:\DotNET\ChromeLauncher\source\ChromeLauncher\bin\Debug\ChromeLauncher.exe.config
+D:\DotNET\ChromeLauncher\source\ChromeLauncher\bin\Debug\ChromeLauncher.exe
+D:\DotNET\ChromeLauncher\source\ChromeLauncher\bin\Debug\ChromeLauncher.pdb

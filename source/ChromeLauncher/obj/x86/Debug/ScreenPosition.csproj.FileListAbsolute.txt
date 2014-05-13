@@ -1,0 +1,9 @@
+D:\DotNET\ScreenPosition\ScreenPosition\ScreenPosition\bin\Debug\ScreenPosition.exe.config
+D:\DotNET\ScreenPosition\ScreenPosition\ScreenPosition\bin\Debug\ScreenPosition.exe
+D:\DotNET\ScreenPosition\ScreenPosition\ScreenPosition\bin\Debug\ScreenPosition.pdb
+D:\DotNET\ScreenPosition\ScreenPosition\ScreenPosition\obj\x86\Debug\ScreenPosition.exe
+D:\DotNET\ScreenPosition\ScreenPosition\ScreenPosition\obj\x86\Debug\ScreenPosition.pdb
+D:\DotNET\ScreenPosition\ScreenPosition\ScreenPosition\obj\x86\Debug\ScreenPosition.csprojResolveAssemblyReference.cache
+D:\DotNET\ScreenPosition\ScreenPosition\ScreenPosition\bin\Debug\Newtonsoft.Json.dll
+D:\DotNET\ScreenPosition\ScreenPosition\ScreenPosition\bin\Debug\Newtonsoft.Json.pdb
+D:\DotNET\ScreenPosition\ScreenPosition\ScreenPosition\bin\Debug\Newtonsoft.Json.xml

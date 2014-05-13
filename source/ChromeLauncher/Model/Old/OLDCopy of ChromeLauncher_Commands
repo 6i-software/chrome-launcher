@@ -1,0 +1,104 @@
+﻿using System;
+using ChromeScreens;
+using CLAP;
+using CLAP.Validation;
+
+namespace ChromeLauncher.CLI
+{
+    class ChromeLauncher_Commands
+    {
+        #region CLAP methods (commands, options, empty, help method...) 
+        [Verb(Description = 
+              "Lance un nombre donné d'instance de chrome sur autant d'écran. Cette"
+            + "\n commande attend en paramètre un nombre de chrome à lancer sur autant"
+            + "\n d'écran. Si le nombre d'écran disponible n'est pas suffisant, les "
+            + "\n instances sont lancés sur le dernier ecran disponible.")]
+        void Tests(
+            [MoreOrEqualTo(1), LessThan(5), DefaultValue(1)]
+            [Description("Nombre de chrome à lancer sur autant d'écrans")]
+            int number)
+        {
+            Console.WriteLine("number = {0}", number);
+        }
+
+        [Verb(Description = "Donne la version & les copyrights de cette application.")]
+        public void Version()
+        {
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("");
+            Console.WriteLine("  ,---.|                            |                        |               ");
+            Console.WriteLine("  |    |---.,---.,---.,-.-.,---.    |    ,---..   .,---.,---.|---.,---.,---. ");
+            Console.WriteLine("  |    |   ||    |   || | ||---'    |    ,---||   ||   ||    |   ||---'|     ");
+            Console.WriteLine("  `---'`   '`    `---'` ' '`---'    `---'`---^`---'`   '`---'`   '`---'`     ");
+            Console.WriteLine(" _____________________________________________________________________________");
+            Console.WriteLine("");
+            Console.WriteLine("  Version : " + Program.Version);
+            Console.WriteLine("  Contact : " + Program.Contact);
+            Console.WriteLine("     Date : " + Program.Date);
+            Console.WriteLine("");
+            Console.WriteLine("  Copyright © 2014, Académie d'Orléans-Tours / Division de l'évaluation et de");
+            Console.WriteLine("  la prospective / Pôle analyse et développement informatique");
+            Console.WriteLine(" ______________________________________________________________________________");
+            Console.ResetColor();
+        }
+
+        [Global(Aliases = "cls", Description = "Efface le contenu de la console avant le traitement.")]
+        void Clear()
+        {
+            Console.Clear();
+        }
+
+        [Error]
+        void HandleError(ExceptionContext context)
+        {
+            Console.ForegroundColor = ConsoleColor.Red;
+            string current_type_exception = context.Exception.GetType().Name;
+            switch (current_type_exception)
+            {
+                case "MissingDefaultVerbException":
+                    Console.WriteLine("[Erreur] Aucune commande par defaut trouvé");
+                    break;
+                case "VerbNotFoundException":
+                    Console.WriteLine("[Erreur] La commande '" + ((VerbNotFoundException)context.Exception).Verb + "' n'existe pas");
+                    break;
+                default:
+                    Console.WriteLine("[" + current_type_exception + "] " + context.Exception.Message);
+                    break;
+            }
+            Console.ResetColor();
+        }
+
+        //[Empty]
+        //[Help]
+        //[Verb(IsDefault = true, Description = "prints")]
+        //void Help(string help)
+        //{
+        //    Console.WriteLine(GetContentHelp(help));
+        //}
+        #endregion
+
+        #region Help methods
+        /// <summary>
+        /// Get the ShortTitle
+        /// </summary>
+        /// <returns></returns>
+        public static string GetShortTitle()
+        {
+            return " ______________________________________________________________________________" + Environment.NewLine 
+                 + Environment.NewLine
+                 + "  " + Program.NameApplication + " - " + Program.Version + Environment.NewLine
+                 + " ______________________________________________________________________________" + Environment.NewLine;
+        }
+
+        /// <summary>
+        /// Encapsulate the content of the help message
+        /// </summary>
+        /// <param name="help"></param>
+        /// <returns></returns>
+        public string GetContentHelp(string help)
+        {
+            return GetShortTitle() + Environment.NewLine + help;
+        }
+        #endregion
+    }
+}

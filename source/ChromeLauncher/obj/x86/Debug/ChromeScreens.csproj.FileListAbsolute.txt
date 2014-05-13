@@ -1,0 +1,13 @@
+D:\DotNET\SVNLocal_ChromeLauncher\trunk\ChromeLauncher_ConsoleApp\obj\x86\Debug\ChromeScreens.csprojResolveAssemblyReference.cache
+D:\DotNET\SVNLocal_ChromeLauncher\trunk\ChromeLauncher_ConsoleApp\obj\x86\Debug\ChromeLauncher.exe
+D:\DotNET\SVNLocal_ChromeLauncher\trunk\ChromeLauncher_ConsoleApp\obj\x86\Debug\ChromeLauncher.pdb
+D:\DotNET\SVNLocal_ChromeLauncher\trunk\ChromeLauncher_ConsoleApp\bin\Debug\actions.json
+D:\DotNET\SVNLocal_ChromeLauncher\trunk\ChromeLauncher_ConsoleApp\bin\Debug\ChromeLauncher.exe.config
+D:\DotNET\SVNLocal_ChromeLauncher\trunk\ChromeLauncher_ConsoleApp\bin\Debug\ChromeLauncher.exe
+D:\DotNET\SVNLocal_ChromeLauncher\trunk\ChromeLauncher_ConsoleApp\bin\Debug\ChromeLauncher.pdb
+D:\DotNET\SVNLocal_ChromeLauncher\trunk\ChromeLauncher_ConsoleApp\bin\Debug\CLAP.dll
+D:\DotNET\SVNLocal_ChromeLauncher\trunk\ChromeLauncher_ConsoleApp\bin\Debug\Newtonsoft.Json.dll
+D:\DotNET\SVNLocal_ChromeLauncher\trunk\ChromeLauncher_ConsoleApp\bin\Debug\CLAP.pdb
+D:\DotNET\SVNLocal_ChromeLauncher\trunk\ChromeLauncher_ConsoleApp\bin\Debug\CLAP.xml
+D:\DotNET\SVNLocal_ChromeLauncher\trunk\ChromeLauncher_ConsoleApp\bin\Debug\Newtonsoft.Json.pdb
+D:\DotNET\SVNLocal_ChromeLauncher\trunk\ChromeLauncher_ConsoleApp\bin\Debug\Newtonsoft.Json.xml
