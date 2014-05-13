@@ -33,7 +33,8 @@ Application .net C# en ligne de commande qui permet d'automatiser le lancement d
 > ChromeLauncher screens
 ```
 
-Résultat :<pre>
+Résultat :
+<pre>
 ---- Screens informations ----
 
  Number screens detected = 2
