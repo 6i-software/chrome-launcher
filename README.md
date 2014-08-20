@@ -1,5 +1,7 @@
 # ChromeLauncher
-This application is a command line interface make with .net / C# - visit http://aot-dep-padi.github.io/ChromeLauncher/
+This application is a command line interface make with .net / C#
+
+Website : http://aot-dep-padi.github.io/ChromeLauncher/
 
 It is able to launch on or multiple Chrome on a one given or multiple screen, and with another parameters (in fullscreen, with delay, given url ...). It was initialy created in order to used it in *digital signage* process. The goal of this process is to deliver targeted messages, to specific locations and/or consumers, at specific times. This is often called "digital out of home" (DOOH). 
 
