@@ -1,0 +1,8 @@
+title: ChromeLauncher
+description: Application CLI (command line interface in .net C#) able to launch Chrome on one or multiple screens by reading json file parameters.
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-architect
+
+gems:
+  - jekyll-mentions
