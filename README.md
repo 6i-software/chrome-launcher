@@ -1,15 +1,15 @@
 # ChromeLauncher
 This application is a command line interface make with .net / C#
 
-Website : http://aot-dep-padi.github.io/ChromeLauncher/
+Website : http://aot-dep-badi.github.io/ChromeLauncher/
 
 It is able to launch on or multiple Chrome on a one given or multiple screen, and with another parameters (in fullscreen, with delay, given url ...). It was initialy created in order to used it in *digital signage* process. The goal of this process is to deliver targeted messages, to specific locations and/or consumers, at specific times. This is often called "digital out of home" (DOOH). 
 
-It allows the automated launch Chrome on multiple screens by reading a Json file.![alt text](https://raw.githubusercontent.com/AOT-PADI/ChromeLauncher/gh-pages/images/ChromeLauncher-actions-json.png "ChromeLauncher actions.json")
+It allows the automated launch Chrome on multiple screens by reading a Json file.![alt text](https://raw.githubusercontent.com/AOT-BADI/ChromeLauncher/gh-pages/images/ChromeLauncher-actions-json.png "ChromeLauncher actions.json")
 
 
 ## Download
-Last setup (windows x86 - 32 bits) : [Setup_ChromeLauncher_v0.0.2](https://github.com/AOT-PADI/ChromeLauncher/releases/download/v0.0.2/Setup_ChromeLauncher_v0.0.2.exe)
+Last setup (windows x86 - 32 bits) : [Setup_ChromeLauncher_v0.0.2](https://github.com/AOT-BADI/ChromeLauncher/releases/download/v0.0.2/Setup_ChromeLauncher_v0.0.2.exe)
 
 
 ## Usages
