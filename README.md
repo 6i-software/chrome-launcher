@@ -4,7 +4,7 @@ Chrome Launcher
 [![LICENSE](https://img.shields.io/badge/license-MIT-informational.svg)](https://github.com/v20100v/6i-Jekyll/blob/develop/LICENSE.md)
 [![Support me by offer me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-donate-informational.svg)](https://www.buymeacoffee.com/vincent.blain)
 
-> Website documentation : http://aot-dep-badi.github.io/ChromeLauncher/
+> Website documentation : [http://6i-software.github.io/chrome-launcher/](http://6i-software.github.io/chrome-launcher/)
 
 ## Features
 
