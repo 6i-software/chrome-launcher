@@ -1,9 +1,14 @@
-# ChromeLauncher
-This application is a command line interface make with .net / C#
+Chrome Launcher
+===============
 
-Website : http://aot-dep-badi.github.io/ChromeLauncher/
+[![LICENSE](https://img.shields.io/badge/license-MIT-informational.svg)](https://github.com/v20100v/6i-Jekyll/blob/develop/LICENSE.md)
+[![Support me by offer me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-donate-informational.svg)](https://www.buymeacoffee.com/vincent.blain)
 
-It is able to launch on or multiple Chrome on a one given or multiple screen, and with another parameters (in fullscreen, with delay, given url ...). It was initialy created in order to used it in *digital signage* process. The goal of this process is to deliver targeted messages, to specific locations and/or consumers, at specific times. This is often called "digital out of home" (DOOH). 
+> Website documentation : http://aot-dep-badi.github.io/ChromeLauncher/
+
+## Features
+
+This application is a command line interface make with .net / C#. It is able to launch on or multiple Chrome on a one given or multiple screen, and with another parameters (in fullscreen, with delay, given url ...). It was initialy created in order to used it in *digital signage* process. The goal of this process is to deliver targeted messages, to specific locations and/or consumers, at specific times. This is often called "digital out of home" (DOOH). 
 
 It allows the automated launch Chrome on multiple screens by reading a Json file.![alt text](https://raw.githubusercontent.com/AOT-PADI/ChromeLauncher/gh-pages/images/ChromeLauncher-actions-json.png "ChromeLauncher actions.json")
 
@@ -88,4 +93,5 @@ Thereafter, we found an example of actions json file to load with ChromeLauncher
 [Releases](https://github.com/AOT-PADI/ChromeLauncher/releases)
 
 ## License
-[BSD License](https://github.com/AOT-PADI/ChromeLauncher/blob/master/LICENSE)
+Chrome Launcher is free and available as open source under ther terms of the [BSD License](https://github.com/AOT-PADI/ChromeLauncher/blob/master/LICENSE), but if you want to support me, you can [buy me a coffee here](https://www.buymeacoffee.com/vincent.blain) !
+
